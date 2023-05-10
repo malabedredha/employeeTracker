@@ -13,8 +13,7 @@ const pool = mysql.createPool({
     queueLimit: 0,
 });
 
-
-let { firstName } = await inquirer.prompt([
+let { firstname } = await inquirer.prompt([
     {
         type: "input",
         name: "firstName",
